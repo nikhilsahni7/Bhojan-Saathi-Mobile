@@ -9,8 +9,6 @@ import {
   StatusBar,
 } from "react-native";
 import { Text } from "@/components/ui/Text";
-import { Feather } from "@expo/vector-icons";
-
 interface OrderHistory {
   id: string;
   date: string;
