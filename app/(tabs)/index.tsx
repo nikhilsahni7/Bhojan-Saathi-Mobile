@@ -220,7 +220,6 @@ export default function TabIndex() {
           <Text style={styles.greeting}>Good morning</Text>
           <Text style={styles.title}>Welcome to Bhojansathi</Text>
         </View>
-
         <View style={styles.searchContainer}>
           <Feather
             name="search"
@@ -236,7 +235,7 @@ export default function TabIndex() {
             onChangeText={setSearchQuery}
           />
         </View>
-
+        {/* rajni.surender */}
         {/* <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -252,7 +251,6 @@ export default function TabIndex() {
             />
           ))}
         </ScrollView> */}
-
         <View style={styles.carouselContainer}>
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>Popular Thalis</Text>
