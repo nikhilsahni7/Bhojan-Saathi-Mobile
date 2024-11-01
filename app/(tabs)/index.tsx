@@ -53,12 +53,12 @@ interface CustomPaginationProps {
   currentIndex: number;
 }
 
-const categories: CategoryItem[] = [
-  { id: "1", name: "All", icon: "🍱" },
-  { id: "2", name: "Veg", icon: "🥗" },
-  { id: "3", name: "Non-Veg", icon: "🍗" },
-  { id: "4", name: "Sweet", icon: "🍨" },
-];
+// const categories: CategoryItem[] = [
+//   { id: "1", name: "All", icon: "🍱" },
+//   { id: "2", name: "Veg", icon: "🥗" },
+//   { id: "3", name: "Non-Veg", icon: "🍗" },
+//   { id: "4", name: "Sweet", icon: "🍨" },
+// ];
 
 const thaliItems: ThaliItem[] = [
   {
@@ -237,7 +237,7 @@ export default function TabIndex() {
           />
         </View>
 
-        <ScrollView
+        {/* <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
           style={styles.categoriesContainer}
@@ -251,7 +251,7 @@ export default function TabIndex() {
               onPress={() => setSelectedCategory(category.name)}
             />
           ))}
-        </ScrollView>
+        </ScrollView> */}
 
         <View style={styles.carouselContainer}>
           <View style={styles.sectionHeader}>
